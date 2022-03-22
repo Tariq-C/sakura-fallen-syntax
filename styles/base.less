@@ -299,3 +299,53 @@ atom-text-editor {
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
+
+// custom Additions
+
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+ @dark-plum: darken(#2D1010, 10%);
+ @pink: darken(#f7d8e7, 10%);
+ @bark: #2D1010;
+ @plum: darken(#2D1010, 5%);
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+.status-bar, .tab-bar, .atom-dock-toggle-button-inner {
+   background-color: @bark !important;
+}
+
+.tree-view, .placeholder, .item-views {
+   background-color: @dark-plum !important;
+}
+
+.title, .left, .status-bar, .right, .current-path, .inline-block, .icon::before {
+   color: @pink !important;
+}
+
+.tab, .btn{
+   background-color: @plum !important;
+   background-image: repeating-linear-gradient(@bark, @dark-plum) !important;
+   color: @pink !important;
+}
+
+.active {
+   background-color: @dark-plum !important;
+}
+
+.name {
+   color: lighten(@plum, 65%);
+}
