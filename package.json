@@ -1,13 +1,13 @@
 {
-  "name": "sakura-fallen-syntax",
+  "name": "Sakura-Fallen-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "1.0.0",
+  "description": "A low brightness Sakura Blossom themed syntax which hopes to create calm, pretty, but still highly efficient experience",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/sakura-fallen-syntax",
+  "repository": "https://github.com/Tariq-C/sakura-fallen-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
