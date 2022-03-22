@@ -7,7 +7,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/Tariq-C/sakura-fallen-syntax",
+  "repository": "https://github.com/Tariq-C/sakura-fallen-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
