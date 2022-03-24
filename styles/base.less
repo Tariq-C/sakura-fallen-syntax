@@ -139,7 +139,7 @@ atom-text-editor {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @light-gray;
+      color: @;
     }
 
     &.syntax--string,
@@ -324,28 +324,29 @@ atom-text-editor[mini] .scroll-view {
  * (To see them, uncomment and save)
  */
 
-.status-bar, .tab-bar, .atom-dock-toggle-button-inner {
-   background-color: @bark !important;
-}
 
-.tree-view, .placeholder, .item-views {
+
+.tree-view, .syntax--placeholder, .item-views {
    background-color: @dark-plum !important;
 }
 
-.title, .left, .status-bar, .right, .current-path, .inline-block {
-   color: @pink !important;
-}
 
-.tab, .btn{
+.syntax--tab, .btn, .syntax--active {
+   background-color: @dark-plum !important;
    background-color: @plum !important;
    background-image: repeating-linear-gradient(@bark, @dark-plum) !important;
    color: @pink !important;
 }
 
-.active {
-   background-color: @dark-plum !important;
+.syntax--name {
+   color: lighten(@plum, 65%) !important;
 }
 
-.name {
-   color: lighten(@plum, 65%);
+.status-bar, .tab-bar, .atom-dock-toggle-button-inner {
+   background-color: @bark !important;
+}
+
+
+.syntax--title, .syntax--left, .status-bar, .syntax--right, .current-path, .inline-block, .icon::before {
+   color: @pink !important;
 }
